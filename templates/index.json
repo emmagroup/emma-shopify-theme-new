@@ -1,144 +1,285 @@
 {
   "sections": {
+    "f0affcc9-bbc0-4686-8c58-3d7428552622": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18941605052753__f0affcc9-bbc0-4686-8c58-3d7428552622-16841050451f79a8cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18941605052753__f0affcc9-bbc0-4686-8c58-3d7428552622-16841050451f79a8cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "KØB NU",
+            "button_link": "shopify:\/\/collections\/dame-parfumer"
+          }
+        }
+      },
+      "block_order": [
+        "template--18941605052753__f0affcc9-bbc0-4686-8c58-3d7428552622-16841050451f79a8cd-0",
+        "template--18941605052753__f0affcc9-bbc0-4686-8c58-3d7428552622-16841050451f79a8cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/desktop_banner2_3.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bf799af1-63b0-4ff6-ba2d-c5975024a783": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18941605052753__bf799af1-63b0-4ff6-ba2d-c5975024a783-168410514075921b10-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "eau-de-parfum"
+          }
+        },
+        "template--18941605052753__bf799af1-63b0-4ff6-ba2d-c5975024a783-168410514075921b10-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "harkur"
+          }
+        },
+        "template--18941605052753__bf799af1-63b0-4ff6-ba2d-c5975024a783-168410514075921b10-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chanel"
+          }
+        },
+        "74560f7e-2a2a-446b-b99d-d728cfb8cbed": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hudpleje-kvinder"
+          }
+        },
+        "e29c5c00-8091-45d6-bfb3-9312f08986c0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "maend-conditioner-1"
+          }
+        },
+        "1fbfe4ff-3bbc-4d89-9aef-a78323673009": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dame-parfumer"
+          }
+        }
+      },
+      "block_order": [
+        "template--18941605052753__bf799af1-63b0-4ff6-ba2d-c5975024a783-168410514075921b10-0",
+        "template--18941605052753__bf799af1-63b0-4ff6-ba2d-c5975024a783-168410514075921b10-1",
+        "template--18941605052753__bf799af1-63b0-4ff6-ba2d-c5975024a783-168410514075921b10-2",
+        "74560f7e-2a2a-446b-b99d-d728cfb8cbed",
+        "e29c5c00-8091-45d6-bfb3-9312f08986c0",
+        "1fbfe4ff-3bbc-4d89-9aef-a78323673009"
+      ],
+      "settings": {
+        "title": "Favoritter",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "Parfumer",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
+        "collection": "parfumer-og-deodoranter",
+        "products_to_show": 12,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-2",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "08d06abc-b170-48a7-b599-f3eea206d65c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18941605052753__08d06abc-b170-48a7-b599-f3eea206d65c-16841050451f79a8cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hvad Tilbyder Vi",
+            "heading_size": "h1"
+          }
+        },
+        "template--18941605052753__08d06abc-b170-48a7-b599-f3eea206d65c-16841050451f79a8cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✓ LAVE PRISER<br\/>✓ 2-3 Dages levering<br\/>✓ Dansk kundeservice<br\/>✓ Sikker betaling<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18941605052753__08d06abc-b170-48a7-b599-f3eea206d65c-16841050451f79a8cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "KØB NU",
+            "button_link": "shopify:\/\/collections\/hudpleje-kvinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--18941605052753__08d06abc-b170-48a7-b599-f3eea206d65c-16841050451f79a8cd-0",
+        "template--18941605052753__08d06abc-b170-48a7-b599-f3eea206d65c-16841050451f79a8cd-1",
+        "template--18941605052753__08d06abc-b170-48a7-b599-f3eea206d65c-16841050451f79a8cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/emmalivingbox.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c1b8de94-89d9-4de0-adc3-652715feea61": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Populære Produkter",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "harvoks",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c4d7c499-fc0a-4a13-8187-2c2a84da86e0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Hårkur",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "harkur",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c2241bb8-bc8f-4808-a1a2-d03de942cc04": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18941605052753__c2241bb8-bc8f-4808-a1a2-d03de942cc04-16841050451f79a8cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop Populære Brands",
+            "heading_size": "h1"
+          }
+        },
+        "template--18941605052753__c2241bb8-bc8f-4808-a1a2-d03de942cc04-16841050451f79a8cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/emmaliving.dk\/collections\/loreal\"> LOREAL<br\/><\/a><a href=\"https:\/\/emmaliving.dk\/collections\/Maybelline\">Maybelline<br\/><\/a><a href=\"https:\/\/emmaliving.dk\/collections\/american-crew\">AMERICAN CREW<br\/><\/a><a href=\"https:\/\/emmaliving.dk\/collections\/hugo-boss\">HUGO BOSS<br\/><\/a><a href=\"https:\/\/emmaliving.dk\/collections\/Kerastase\">Kérastase<br\/><\/a><a href=\"https:\/\/emmaliving.dk\/collections\/marc-jacobs\">MARC JACOBS<\/a><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18941605052753__c2241bb8-bc8f-4808-a1a2-d03de942cc04-16841050451f79a8cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIS ALLE",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--18941605052753__c2241bb8-bc8f-4808-a1a2-d03de942cc04-16841050451f79a8cd-0",
+        "template--18941605052753__c2241bb8-bc8f-4808-a1a2-d03de942cc04-16841050451f79a8cd-1",
+        "template--18941605052753__c2241bb8-bc8f-4808-a1a2-d03de942cc04-16841050451f79a8cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-suzy-hazelwood-2536965_9007fbad-9522-4d9e-825e-5c1d0edd6f9d.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "f0affcc9-bbc0-4686-8c58-3d7428552622",
+    "bf799af1-63b0-4ff6-ba2d-c5975024a783",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "08d06abc-b170-48a7-b599-f3eea206d65c",
+    "c1b8de94-89d9-4de0-adc3-652715feea61",
+    "c4d7c499-fc0a-4a13-8187-2c2a84da86e0",
+    "c2241bb8-bc8f-4808-a1a2-d03de942cc04"
   ]
 }
