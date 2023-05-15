@@ -1,16 +1,15 @@
 {
   "sections": {
-    "f0affcc9-bbc0-4686-8c58-3d7428552622": {
-      "type": "image-with-text",
+    "e1bedba5-64a6-4ec7-83fa-0c9ee65291d1": {
+      "type": "hero-banner",
       "blocks": {
-        "template--18941605052753__f0affcc9-bbc0-4686-8c58-3d7428552622-16841050451f79a8cd-0": {
+        "template--18941605052753__e1bedba5-64a6-4ec7-83fa-0c9ee65291d1-168416285327aee969-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Shop Parfumer Til Lave Priser"
           }
         },
-        "template--18941605052753__f0affcc9-bbc0-4686-8c58-3d7428552622-16841050451f79a8cd-2": {
+        "template--18941605052753__e1bedba5-64a6-4ec7-83fa-0c9ee65291d1-168416285327aee969-1": {
           "type": "button",
           "settings": {
             "button_label": "KØB NU",
@@ -19,22 +18,14 @@
         }
       },
       "block_order": [
-        "template--18941605052753__f0affcc9-bbc0-4686-8c58-3d7428552622-16841050451f79a8cd-0",
-        "template--18941605052753__f0affcc9-bbc0-4686-8c58-3d7428552622-16841050451f79a8cd-2"
+        "template--18941605052753__e1bedba5-64a6-4ec7-83fa-0c9ee65291d1-168416285327aee969-0",
+        "template--18941605052753__e1bedba5-64a6-4ec7-83fa-0c9ee65291d1-168416285327aee969-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/desktop_banner2_3.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
         "color_scheme": "accent-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "bf799af1-63b0-4ff6-ba2d-c5975024a783": {
@@ -407,7 +398,7 @@
     }
   },
   "order": [
-    "f0affcc9-bbc0-4686-8c58-3d7428552622",
+    "e1bedba5-64a6-4ec7-83fa-0c9ee65291d1",
     "bf799af1-63b0-4ff6-ba2d-c5975024a783",
     "featured_collection",
     "08d06abc-b170-48a7-b599-f3eea206d65c",
