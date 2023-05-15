@@ -1,0 +1,183 @@
+.hero-banner .grid {
+  margin-bottom: 0;
+}
+
+.hero-banner .grid__item {
+  position: relative;
+}
+
+@media screen and (min-width: 750px) {
+  .hero-banner__grid--reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+.hero-banner__media {
+  min-height: 100%;
+  overflow: visible;
+}
+
+.hero-banner__media--placeholder {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-banner__media--placeholder:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(var(--color-foreground), 0.04);
+}
+
+.hero-banner__media--placeholder>svg {
+  position: absolute;
+  left: 50%;
+  max-width: 80rem;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  fill: currentColor;
+}
+
+.hero-banner__content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-self: center;
+  padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-banner .grid__item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-banner .hero-banner__media-item>* {
+  border-radius: var(--media-radius);
+  overflow: hidden;
+  box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius) rgba(var(--color-shadow), var(--media-shadow-opacity));
+}
+
+.hero-banner .global-media-settings {
+  overflow: hidden !important;
+}
+
+.hero-banner .hero-banner__text-item>* {
+  border-radius: var(--text-boxes-radius);
+  overflow: hidden;
+  box-shadow: var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset) var(--text-boxes-shadow-blur-radius) rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
+}
+
+@media screen and (min-width: 750px) {
+  .hero-banner__grid--reverse .hero-banner__content {
+    margin-left: auto;
+  }
+
+  .hero-banner__content {
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+
+  .hero-banner__content--desktop>* {
+    align-self: flex-start;
+    text-align: left;
+  }
+}
+
+.hero-banner__content {
+  border-radius: var(--text-boxes-radius);
+  box-shadow: var(--text-boxes-shadow-horizontal-offset) var(--text-boxes-shadow-vertical-offset) var(--text-boxes-shadow-blur-radius) rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
+  word-break: break-word;
+}
+
+@media screen and (min-width: 990px) {
+  .hero-banner__content {
+    padding: 6rem 7rem 7rem;
+  }
+}
+
+.hero-banner__content>*+* {
+  margin-top: 2rem;
+}
+
+.hero-banner__content>.hero-banner__text:empty~a {
+  margin-top: 2rem;
+}
+
+.hero-banner__content> :first-child:is(.hero-banner__heading),
+.hero-banner__text--caption+.hero-banner__heading,
+.hero-banner__text--caption:first-child {
+  margin-top: 0;
+}
+
+.hero-banner__content :last-child:is(.hero-banner__heading),
+.hero-banner__text--caption {
+  margin-bottom: 0;
+}
+
+.hero-banner__content .button+.hero-banner__text {
+  margin-top: 2rem;
+}
+
+.hero-banner__content .hero-banner__text+.button {
+  margin-top: 3rem;
+}
+
+.hero-banner__heading {
+  margin-bottom: 0;
+}
+
+.hero-banner__text p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 749px) {
+  .collapse-padding .hero-banner__grid .hero-banner__content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .collapse-padding .hero-banner__grid:not(.hero-banner__grid--reverse) .hero-banner__content:not(.hero-banner__content--desktop-center) {
+    padding-right: 0;
+  }
+
+  .collapse-padding .hero-banner__grid--reverse .hero-banner__content:not(.hero-banner__content--desktop-center) {
+    padding-left: 0;
+  }
+}
+
+/* check for flexbox gap in older Safari versions */
+@supports not (inset: 10px) {
+  .hero-banner .grid {
+    margin-left: 0;
+  }
+}
+
+/*
+  Multirow
+  note: consider removing from this stylesheet if multirow-specific styles increase signficantly
+*/
+.multirow__inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--grid-mobile-vertical-spacing);
+}
+
+@media screen and (min-width: 750px) {
+  .multirow__inner {
+    row-gap: var(--grid-desktop-vertical-spacing);
+  }
+}
