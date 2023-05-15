@@ -271,6 +271,139 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "24785b4d-08bf-473b-9750-71ac4e1bce19": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18941605052753__24785b4d-08bf-473b-9750-71ac4e1bce19-16841050451f79a8cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Makeup, Hudpleje Parfumer",
+            "heading_size": "h1"
+          }
+        },
+        "template--18941605052753__24785b4d-08bf-473b-9750-71ac4e1bce19-16841050451f79a8cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Her hos emmaliving kan vi tilbyde dig et stort udvalg af uundværlige produkter til kvinder og mænd. Du kan finde alt fra billig makeup, parfume, shampoo og…<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18941605052753__24785b4d-08bf-473b-9750-71ac4e1bce19-16841050451f79a8cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LÆS MERE",
+            "button_link": "shopify:\/\/collections\/ansigt"
+          }
+        }
+      },
+      "block_order": [
+        "template--18941605052753__24785b4d-08bf-473b-9750-71ac4e1bce19-16841050451f79a8cd-0",
+        "template--18941605052753__24785b4d-08bf-473b-9750-71ac4e1bce19-16841050451f79a8cd-1",
+        "template--18941605052753__24785b4d-08bf-473b-9750-71ac4e1bce19-16841050451f79a8cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Women_category_banner_1-plain.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b716b744-2517-4bca-b60f-c73946a4f98b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18941605052753__b716b744-2517-4bca-b60f-c73946a4f98b-16841050451f79a8cd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dufte, Hårvoks, Ansigt",
+            "heading_size": "h1"
+          }
+        },
+        "template--18941605052753__b716b744-2517-4bca-b60f-c73946a4f98b-16841050451f79a8cd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mænd har ikke nødvendigvis brug for så mange produkter som kvinder, når det gælder hud-, hår- og kropspleje. Her er det nok snarer et spørgsmål om…<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18941605052753__b716b744-2517-4bca-b60f-c73946a4f98b-16841050451f79a8cd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LÆS MERE",
+            "button_link": "shopify:\/\/collections\/harpleje-kvinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--18941605052753__b716b744-2517-4bca-b60f-c73946a4f98b-16841050451f79a8cd-0",
+        "template--18941605052753__b716b744-2517-4bca-b60f-c73946a4f98b-16841050451f79a8cd-1",
+        "template--18941605052753__b716b744-2517-4bca-b60f-c73946a4f98b-16841050451f79a8cd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Men_category_banner_2-plain.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2f152a34-9de8-4bdd-b1bc-65dac7bb933a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18941605052753__2f152a34-9de8-4bdd-b1bc-65dac7bb933a-1684150609fde95a97-0": {
+          "type": "column",
+          "settings": {
+            "title": "Find dine favorit brands på tilbud",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18941605052753__2f152a34-9de8-4bdd-b1bc-65dac7bb933a-1684150609fde95a97-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"\/collections\/eau-de-parfum\" title=\"Eau de Parfum kvinder\">SHOP NU<\/a><\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--18941605052753__2f152a34-9de8-4bdd-b1bc-65dac7bb933a-1684150609fde95a97-0",
+        "template--18941605052753__2f152a34-9de8-4bdd-b1bc-65dac7bb933a-1684150609fde95a97-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
@@ -280,6 +413,9 @@
     "08d06abc-b170-48a7-b599-f3eea206d65c",
     "c1b8de94-89d9-4de0-adc3-652715feea61",
     "c4d7c499-fc0a-4a13-8187-2c2a84da86e0",
-    "c2241bb8-bc8f-4808-a1a2-d03de942cc04"
+    "c2241bb8-bc8f-4808-a1a2-d03de942cc04",
+    "24785b4d-08bf-473b-9750-71ac4e1bce19",
+    "b716b744-2517-4bca-b60f-c73946a4f98b",
+    "2f152a34-9de8-4bdd-b1bc-65dac7bb933a"
   ]
 }
