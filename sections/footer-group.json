@@ -9,39 +9,40 @@
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "footer"
+            "menu": "footer-menu"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Support",
+            "menu": "footer-menu1"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "f46b6078-b752-4664-ac17-dc838db99269": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Information",
+            "menu": "footer-menu2"
           }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "footer-2"
+        "f46b6078-b752-4664-ac17-dc838db99269"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "FÅ DE BEDSTE TILBUD FØRST",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": false,
-        "margin_top": 48,
+        "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
